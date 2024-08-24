@@ -30,20 +30,9 @@
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
-                  <!-- <div  class="hidden dropdown w-full md:auto md:w-auto" > -->
+  
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <!-- <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg> -->
+                     
                       <span class="sr-only">Open main menu</span>
                       <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
@@ -67,7 +56,7 @@
                               <i class="fa-solid fa-cart-shopping"></i>
                              </div></li>
                            
-                           <li><a class="btn bg-lime-500 font-bold text-sm">Book Consult <span class="rounded-full bg-black size-10 bg-center w-10 h-10 flex items-center justify-center"><i class="text-white fa-solid fa-arrow-right text-xl -rotate-45"></i></span></a></li>
+                           <li><a class="btn bg-lime-500 font-bold text-sm rounded-full">Book Consult <span class="rounded-full bg-black  bg-center lg:w-10 lg:h-10 sm:w-6 sm:h-6 "><i class="text-white fa-solid fa-arrow-right text-xl -rotate-45"></i></span></a></li>
 
                         </ul>
                       </li>
@@ -94,7 +83,7 @@
                         <i class="fa-solid fa-cart-shopping"></i>
                        </div></li>
                      
-                     <li><a class="btn bg-lime-500 font-bold text-sm">Book Consult <span class="rounded-full bg-black size-10 bg-center w-10 h-10 flex items-center justify-center"><i class="text-white fa-solid fa-arrow-right text-xl -rotate-45"></i></span></a></li>
+                     <li><a class="btn bg-lime-500 font-bold text-sm rounded-full">Book Consult <span class="rounded-full bg-black size-10 bg-center w-10 h-10 flex items-center justify-center"><i class="text-white fa-solid fa-arrow-right text-xl -rotate-45"></i></span></a></li>
                    
                   </ul>
                 </div>
@@ -119,7 +108,7 @@
             <div>
                 <h1 class="text-6xl">A barn house of this design has <br> a striking appearance</h1>
                 <p class="mt-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
-                <button class="mt-5 btn bg-lime-300">View Details <span class="rounded-full bg-lime-400 size-10 bg-center w-6 h-6 flex items-center justify-center"><i class="fa-solid fa-arrow-right text-xl -rotate-45"></i></span></button>
+                <button class="mt-5 btn bg-lime-300 rounded-full">View Details <span class="rounded-full bg-lime-400 size-10 bg-center w-6 h-6 flex items-center justify-center"><i class="fa-solid fa-arrow-right text-xl -rotate-45"></i></span></button>
             </div>
         </section>
         
@@ -232,10 +221,10 @@
         <div>
           <!-- first section -->
            <!-- image-1 card -->
-          <div class="flex justify-center space-x-4 mt-4">
-            <div class="bg-slate-100 w-[717px] h-[227px] rounded-2xl flex justify-center p-5 space-x-5">
+          <div class="flex  flex-col lg:flex-row justify-center lg:space-x-4 mt-4">
+            <div class="bg-slate-100 lg:w-[717px] lg:h-[227px] rounded-2xl flex justify-center p-5 space-x-5  flex-col lg:flex-row sm:h-[400px] sm:text-center">
               <div>
-                <img class="w-[268px] h-[187px]" src="assets/img1.png" alt="">
+                <img class="w-[268px] h-[187px] " src="assets/img1.png" alt="">
               </div>
               <div>
                 <p class="text-xl font-extrabold">Commercial</p>
@@ -245,7 +234,7 @@
             </div>
 
             <!-- image-2 card -->
-            <div class="bg-slate-100 w-[319px] h-[227px] rounded-2xl flex items-center justify-center overflow-hidden">
+            <div class="bg-slate-100 lg:w-[319px] lg:h-[227px] rounded-2xl flex items-center justify-center overflow-hidden">
               <img class="w-[280px] h-[187px]" src="assets/img2.png" alt="">
             </div>
 
@@ -253,15 +242,15 @@
 
           <!-- second section -->
            <!-- image-3 card -->
-          <div class="flex justify-center space-x-4 mt-4">
-            <div class="bg-slate-100 w-[240px] h-[227px] rounded-2xl flex justify-center items-center overflow-hidden">
+          <div class="flex  flex-col lg:flex-row  justify-center lg:space-x-4 mt-4">
+            <div class="bg-slate-100 lg:w-[240px] lg:h-[227px] rounded-2xl flex justify-center items-center overflow-hidden">
               <img class="w-[200px] h-[187px]" src="assets/img3.png" alt="">
             </div>
 
             <!-- image-4 card -->
-            <div class="bg-slate-100 w-[540px] h-[227px] rounded-2xl flex justify-center p-5 space-x-6">
+            <div class="bg-slate-100 lg:w-[540px] lg:h-[227px] rounded-2xl flex justify-center  flex-col lg:flex-row  p-5 space-x-6">
               <div>
-                <img class="w-[250px] h-[187px] " src="assets/img4.png" alt="">
+                <img class="lg:w-[250px] lg:h-[187px] " src="assets/img4.png" alt="">
               </div>
               <div>
                 <p class="text-xl font-extrabold">Commercial</p>
@@ -271,8 +260,8 @@
             </div>
 
             <!-- image-5 card -->
-            <div class="bg-slate-100 w-[240px] h-[227px] rounded-2xl flex justify-center items-center overflow-hidden">
-              <img class="w-[200px] h-[187px]" src="assets/img5.png" alt="">
+            <div class="bg-slate-100 lg:w-[240px] lg:h-[227px] rounded-2xl flex justify-center items-center overflow-hidden">
+              <img class="lg:w-[200px] lg:h-[187px]" src="assets/img5.png" alt="">
             </div>
           </div>
         </div>
@@ -281,7 +270,7 @@
       <section class="relative">
         <div>
           <!-- Background Image -->
-          <img class="w-full h-[850px]" src="assets/bg.jpg" alt="">
+          <img class="w-full h-[950px]" src="assets/bg.jpg" alt="">
       
           <!-- Content Overlay -->
           <div class="absolute inset-0 flex flex-col justify-center items-center p-4 text-center text-black">
@@ -318,26 +307,39 @@
      </main>
 
      <!-- Footer Section -->
-     <footer class="bg-black">
-      <div class="justify-center items-center text-center p-20">
-        <div class="grid justify-center items-center text-center">
-          <h1 class="text-white gap-3 text-2xl font-extrabold"><span class=" inline-flex rounded-full bg-lime-300 text-center items-center justify-center size-10 w-7 h-7"><i class="fa-solid fa-arrow-right text-xl -rotate-45"></i></span> Rinterio</h1>
-          <p class="text-neutral-500 mt-5">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
-        </div>
+     <footer class="bg-black sm:gap-20">
 
-        <div class="flex justify-evenly mt-5">
+      <div class="text-center p-10 md:p-20">
+        <div class="grid justify-center items-center text-center">
+          <h1 class="text-white gap-3 text-xl md:text-2xl font-extrabold">
+            <span class="inline-flex items-center justify-center rounded-full bg-lime-300 w-7 h-7">
+              <i class="fa-solid fa-arrow-right text-lg md:text-xl -rotate-45"></i>
+            </span> 
+            Rinterio
+          </h1>
+          <p class="text-neutral-500 mt-4 text-sm md:text-base">
+            The barn house captivates with its blend of rustic charm and modern sophistication, <br class="hidden md:inline"> featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+    
+        <div class="flex flex-col md:flex-row justify-center md:justify-evenly mt-5 space-y-3 md:space-y-0 md:space-x-4">
           <p class="text-neutral-500">Home</p>
           <p class="text-neutral-500">Services</p>
           <p class="text-neutral-500">Portfolio</p>
           <p class="text-neutral-500">Blogs</p>
           <p class="text-neutral-500">Contact Us</p>
-
         </div>
+    
         <div class="mt-5">
-          <button class="btn bg-lime-300 rounded-full w-[212px] h-[56px] mb-4 text-base font-extrabold">Book Consult<span  class="rounded-full bg-black size-10 bg-center w-7 h-7 flex items-center justify-center"><i class="fa-solid fa-arrow-right text-white text-xl -rotate-45"></i></span> </button>
+          <button class="btn bg-lime-300 rounded-full w-[360px] md:w-[212px] h-[48px] md:h-[56px] mb-4 text-sm md:text-base font-extrabold">
+            Book Consult 
+            <span class="rounded-full bg-black w-6 h-6 md:w-7 md:h-7 flex items-center justify-center ml-2">
+              <i class="fa-solid fa-arrow-right text-white text-lg md:text-xl -rotate-45"></i>
+            </span>
+          </button>
         </div>
       </div>
-     </footer>
 
+     </footer>
 </body>
 </html>
